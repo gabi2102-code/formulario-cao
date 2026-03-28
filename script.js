@@ -39,4 +39,6 @@ if (nome.length < 3) {
  document.getElementById('erroNome').textContent = 'Nome deve ter pelo menos 3 caracteres';
 valido = false;
 }
-i
+if(telefone.length < 8){
+        document.getElementById('erroTelefone').textContent = 'Telefone inválido, deve ter pelo menos 8 caracteres';
+        valido = false;
